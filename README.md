@@ -48,7 +48,7 @@ cd automated-news-summarization
 Navigate to the `frontend` directory and install the required dependencies:
 
 ```bash
-cd frontend
+cd news-summarizer
 npm install
 ```
 
@@ -57,7 +57,6 @@ npm install
 Navigate to the `backend` directory and install the required Python dependencies:
 
 ```bash
-cd backend
 pip install -r requirements.txt
 ```
 
@@ -68,7 +67,6 @@ pip install -r requirements.txt
 To start the Flask server:
 
 ```bash
-cd backend
 python app.py
 ```
 
@@ -77,7 +75,7 @@ python app.py
 To run the React development server:
 
 ```bash
-cd frontend
+cd news-summarizer
 npm start
 ```
 
@@ -90,11 +88,10 @@ This will start the React app at `http://localhost:3000` and the Flask API at `h
 ```bash
 automated-news-summarization/
 │
-├── backend/           # Flask backend files
 │   ├── app.py         # Main Flask application
 │   ├── requirements.txt   # Backend dependencies
 │
-├── frontend/          # React frontend files
+├── news-summarizer/          # React frontend files
 │   ├── src/           # React source files
 │   ├── package.json   # Frontend dependencies
 │
