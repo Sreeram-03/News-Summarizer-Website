@@ -1,28 +1,116 @@
-# Automated-News-Summarization-System
-This repository contains a web application for automated news article summarization, designed to extract and present concise, relevant summaries of news articles. The app is built with a React frontend and a Flask backend, providing an intuitive interface for users and a robust backend for text processing.
+Here’s a styled **README** section with installation instructions for your Automated News Article Summarization System project:
 
-Features: 
-Automated Summarization: Extracts key information from news articles to generate concise summaries.
-React Frontend: A responsive and user-friendly interface for inputting article URLs and viewing summaries.
-Flask Backend: Handles article fetching and processing using natural language processing (NLP) techniques.
-Real-time Summaries: Display of the summary with proper casing and within an optimal length for easy reading.
-REST API: Backend API endpoints for text summarization that can be integrated with other applications.
+---
 
-Technologies Used: 
-React: For building the user interface and managing user interactions.
-Flask: For creating the API and handling backend logic.
-Natural Language Processing: Using libraries such as NLTK or spaCy to perform text summarization.
-Axios: For making HTTP requests from the frontend to the backend.
+# Automated News Article Summarization System
 
-Setup Instructions:
-Clone the repository.
-Install the required dependencies for both frontend and backend.
-Run the Flask backend server.
-Start the React frontend server.
-Input news article URLs to get automated summaries.
+This repository contains a web application built with **React** and **Flask** for summarizing news articles by extracting the most relevant information, making it easier for users to read concise summaries.
 
-Future Improvements:
-Add support for summarizing articles in multiple languages.
-Implement user authentication for saving summaries.
-Enhance the summarization algorithm for better accuracy.
+## Features
 
+- **Automated Summarization**: Generates concise and relevant summaries from news articles.
+- **User-friendly Interface**: React-based frontend with a clean design for easy interaction.
+- **REST API**: Flask-based backend for processing the text and handling API requests.
+- **Proper Text Formatting**: Displays summaries with correct casing and optimized length.
+
+## Tech Stack
+
+- **Frontend**: React (JavaScript)
+- **Backend**: Flask (Python)
+- **NLP**: NLTK / spaCy (Python libraries)
+- **HTTP Requests**: Axios for frontend-backend communication
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Before running the project, ensure that you have the following installed:
+
+- **Node.js** (v14 or above)
+- **Python** (v3.7 or above)
+- **pip** (Python package manager)
+
+### Project Setup
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/automated-news-summarization.git
+cd automated-news-summarization
+```
+
+### 2. Install Dependencies
+
+#### Frontend (React)
+
+Navigate to the `frontend` directory and install the required dependencies:
+
+```bash
+cd frontend
+npm install
+```
+
+#### Backend (Flask)
+
+Navigate to the `backend` directory and install the required Python dependencies:
+
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+### 3. Running the Application
+
+#### Start the Backend (Flask)
+
+To start the Flask server:
+
+```bash
+cd backend
+python app.py
+```
+
+#### Start the Frontend (React)
+
+To run the React development server:
+
+```bash
+cd frontend
+npm start
+```
+
+This will start the React app at `http://localhost:3000` and the Flask API at `http://localhost:5000`.
+
+---
+
+## 🛠️ Project Structure
+
+```bash
+automated-news-summarization/
+│
+├── backend/           # Flask backend files
+│   ├── app.py         # Main Flask application
+│   ├── requirements.txt   # Backend dependencies
+│
+├── frontend/          # React frontend files
+│   ├── src/           # React source files
+│   ├── package.json   # Frontend dependencies
+│
+└── README.md          # Project documentation
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve the project, feel free to open a pull request or submit issues.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
