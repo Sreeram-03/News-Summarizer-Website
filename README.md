@@ -54,7 +54,7 @@ npm install
 
 #### Backend (Flask)
 
-Navigate to the `backend` directory and install the required Python dependencies:
+Navigate to the `news-summarizer` directory and install the required Python dependencies:
 
 ```bash
 pip install -r requirements.txt
