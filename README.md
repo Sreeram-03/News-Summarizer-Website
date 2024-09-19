@@ -37,15 +37,15 @@ Before running the project, ensure that you have the following installed:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/automated-news-summarization.git
-cd automated-news-summarization
+git clone https://github.com/rHarsh-11/News-Summarizer-Website.git
+cd News-Summarizer-Website
 ```
 
 ### 2. Install Dependencies
 
 #### Frontend (React)
 
-Navigate to the `frontend` directory and install the required dependencies:
+Navigate to the `news-summarizer` directory and install the required dependencies:
 
 ```bash
 cd news-summarizer
@@ -54,7 +54,7 @@ npm install
 
 #### Backend (Flask)
 
-Navigate to the `news-summarizer` directory and install the required Python dependencies:
+Navigate to the `News-Summarizer-Website` directory and install the required Python dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -86,7 +86,7 @@ This will start the React app at `http://localhost:3000` and the Flask API at `h
 ## 🛠️ Project Structure
 
 ```bash
-automated-news-summarization/
+News-Summarizer-Website/
 │
 │   ├── app.py         # Main Flask application
 │   ├── requirements.txt   # Backend dependencies
